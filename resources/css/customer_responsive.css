@@ -1,0 +1,17 @@
+@media screen and (max-width:900px) {
+    #customer .customer-text {
+        width: 100%;
+    }
+
+    #customer .customer {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #customer .customer {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

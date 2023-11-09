@@ -1,0 +1,53 @@
+@media screen and (max-width:1024px)
+{
+    footer .flex:first-child
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .w-100
+    {
+        width: 100%;
+    }
+
+    footer ul li
+    {
+        margin-left: 0;
+    }
+
+    footer .text-2xl
+    {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    footer .secondary .text-xl
+    {
+        font-size: 15px;
+    }
+
+    footer .mx-32
+    {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width:375px)
+{
+    footer input.px-10
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    footer input.py-10
+    {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
