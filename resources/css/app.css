@@ -2,48 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .content {
     margin: 0 auto;
     max-width: 1700px !important;
 }
 
-@media screen and (min-width:1700px) {
+/* @media screen and (min-width:1700px) {
     .menu .absolute:first-child {
         gap: 1350px;
         @apply w-auto
     }
-}
-
+} */
+/*
 .color {
     color: #bc883d;
 }
 
-.color_primary {
-    color: #f5e47b;
-}
-
-nav ul li {
-    padding: 10px;
-    padding-left: 25px;
-    cursor: pointer;
-}
 
 nav ul li:hover {
     background-color: #bc883d;
-    color: white;
 }
+ */
 
-.active {
-    background-color: #bc883d;
-}
-
-.primary {
-    background-color: #bc883d;
-}
-
-.hover_primary:hover {
-    background-color: #bc883d;
-}
 
 .secondary {
     background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
@@ -56,39 +44,19 @@ nav ul li:hover {
     -webkit-text-fill-color: transparent;
 }
 
-.bg-red-10 {
-    background-color: #280e08;
-}
-
-.tertiaire {
-    background-color: #1b0905;
-}
-
-.tertiaire_color {
-    color: #1b0905;
-}
-
-.tertiaire_color:hover {
-    color: #1b0905;
-}
 
 .link_hover:hover {
     background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
     transition: ease-in 0.5s;
 }
 
+
 .border-b-1 {
     border: none;
     border-bottom: 1px solid white;
 }
 
-#name,
-#phone,
-#email,
-#message {
-    color: white;
-}
-
+/*
 .-translateX-280 {
     transform: translateX(-280px);
     transition: ease-in 0.4s;
@@ -107,4 +75,4 @@ nav ul li:hover {
     transition: ease-in 0.4s;
     background: white;
     color: black;
-}
+} */

@@ -1,11 +1,5 @@
 import './bootstrap';
 import '../css/app.css';
-import "../css/nav_responsive.css"
-import "../css/about_responsive.css"
-import "../css/contact_responsive.css"
-import "../css/footer_responsive.css"
-import "../css/game_responsive..css"
-import "../css/customer_responsive.css"
 
 import { createRoot } from 'react-dom/client';
 import { createInertiaApp } from '@inertiajs/react';
